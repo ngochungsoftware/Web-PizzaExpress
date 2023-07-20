@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <script src="./app.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+       <div class="formheader">
+      <img class="img" width="200px" src="./logo.png" alt="">
+      <span class="textpizza">Pizza ngon- Giá rẻ - Vận chuyển tận nhà</span>
+      <a class="formdk1" href="#">Đăng nhập</a>
+      <a class="formdk" href="#">Đăng ký</a>
+       </div>
+      </header>
+      <nav>
+       
+        <ul class="cmenu">
+            <li><a class="boder" href="./trangchu.html">TRANG CHỦ</a></li>  
+          <li>
+            <a class="menube" href="./trangchu.html">THỰC ĐƠN</a>
+          <li>
+            <a href="./chinhsach.html">KHUYẾN MÃI</a>
+          </li>
+          <li><a href="./khuyenmai.html">CHÍNH SÁCH</a></li>
+          <li class="hai"><a href="#">BLOG</a></li>
+        <li class="hai"><a href="./lienhe.html">LIÊN HỆ</a></li>
+        <div class="lienhe">
+          <span class="textlh">
+            Gọi điện ngay - Ship liền tay(24/7)
+          </span>
+          <i id="phone" class='bx bx-phone'></i>
+          <span class="sdt">
+            (024)36.888.777
+          </span>
+        </div>
+      </nav>
+      <article>
+        <div class="baner"><img src="./bg_title.png" alt=""></div>
+        <span class="textgiohang">Giỏ hàng</span>
+        <div class="dangnhap">
+         <div class="thongtin">
+             <h1>Thông tin thanh toán</h1>
+         </div>
+        <form action="" onsubmit="return dki()">
+          <div class="inputthongtinkh">
+            <input id="hoten" type="text" placeholder=" Họ và tên">
+            <input id="sdt" type="text" placeholder="Số điện thoại">
+            <input id="diachi" type="text" placeholder=" Địa chỉ">
+        </div>
+        <span>Yêu cầu khác</span>
+        <div class="ghichu">
+        <textarea placeholder="Ví dụ: bỏ hành tây, ớt chuông......" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+       <button class="dathang">Đặt hàng</button>
+       </div></form>
+      </article>
+      <aside> 
+        <div class="textmuahang">
+            <span class="sanpham">Sản phẩm</span>
+            <span class="sanpham">Giá</span>
+            <span class="sanpham">Số lượng</span>
+            <span class="sanpham">Tổng</span>
+            <hr>
+        </div>
+        <div class="banhang">
+            <img width="180px" height="150px" src="./sanpham1.jpg" alt="">
+           <h4>
+            P1. Beefy Pizza
+
+           </h4>
+        
+            <span id="gia">120.000</span>
+            <span><input id="soluong" onclick="tinhtien()" min="0"  type="number"></span>
+            <span id="tinhtien" class="tien">0</span>
+
+        </div>
+      </aside>
+ <footer>
+  haibvph33557
+ </footer>
+    </div>
+    <script>
+     function tinhtien(){
+      var tong = 0;
+      const a = document.getElementById('soluong').value;
+      var gia = document.getElementById('gia').innerText;
+      tong = Number(a) * Number(gia);
+      console.log(a);
+      console.log(gia);
+      document.getElementById("tinhtien").innerText = tong;
+     }
+     function dki(){
+     var hoten = document.getElementById('hoten');
+     var sdt = document.getElementById('sdt');
+     var diachi = document.getElementById('diachi');
+     if ( hoten.value == ""){
+      alert("Mời bạn nhập họ tên")
+      return false
+     }
+     if( sdt.value == ""){
+      alert("Mời bạn nhập số diện thoại")
+      return false
+
+     }
+     if(diachi.value == ""){
+      alert("Mời bạn nhập địa chỉ")
+      return false
+
+     }
+     
+     alert("Bạn đã đặt hàng thành công")
+     }
+    </script>
+    
+  </body>
+
+</html>

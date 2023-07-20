@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 1100px;
+    position: relative; 
+    font-family: 'Montserrat',sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #a9001b;
+}
+.formdk{
+    color: white;
+    text-align: left;
+    margin-left:450px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.formdk1{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 25px;
+    line-height: 40px;
+}
+.formdk1:hover{
+   color: yellow;
+}
+.baner{
+    border-bottom:90px solid white ;
+}
+.dathang{
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 140px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #b9b9b9;
+    color: white;
+}
+.textmuahang{
+    margin-left: 200px;
+   color: #a9001b;
+}
+.textmuahang .sanpham{
+    margin: 0 60px;
+}
+.dathang:hover{
+    background-color: #a9001b;
+}
+.banhang{
+    display: flex;
+}
+.banhang h4{
+    padding:70px;
+}
+.banhang span{
+    padding-top: 70px;
+}
+.banhang input{
+    margin-left: 50px
+}
+.tien{
+    position: absolute;
+    right: 42%;
+
+}
+.banhang span{
+    color: #a9001b;
+}
+.dangnhap{
+    margin-right: 200px;
+    width: 25%;
+    height:630px;
+   
+    float: right;
+    background-color: #f5f5f5;
+}
+.thongtin{
+    margin: 20px;
+}
+.dangnhap span{
+    margin: 40px 10px;
+}
+.inputthongtinkh input{
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+}
+
+.ghichu{
+    margin: 20px 10px;
+}
+.ghichu textarea{
+    outline: none;
+    padding: 40px 30px;
+    border-radius: 20px;
+    border: none;
+}
+.formdk:hover{
+    color: yellow;
+}
+.formheader{
+    display: flex;
+    color: white;
+    font-size: 18px;
+   
+}
+
+.textpizza{
+    line-height: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.img{
+   margin: 8px 200px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #c00a27;
+    box-shadow: 0px 0px 2px orangered;
+  
+}
+article{
+    
+    width: 100%;
+    height: 250px;
+}
+article h1{
+    
+    font-size: 30px;
+   
+}
+
+
+article .textgiohang{
+    position: absolute;
+    font-size: 30px;
+    color: yellow;
+    top: 17%;
+    left: 45%;
+}
+.cmenu{
+    list-style: none;
+    background-color: #c00a27;
+    padding-left: 150px;
+    height: 80px;
+  
+}
+.cmenu >li{
+    float: left;
+    margin: 30px 30px;
+ 
+}
+.cmenu >li >.hai:hover{
+    font-weight: bold;
+    color: yellow;
+}
+.cmenu >li >a{ 
+    text-decoration: none;
+    color: white;
+}
+.cmenu >li >a:hover{
+    color:yellow;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.lienhe{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 18px;
+   padding: 18px;
+}
+.textlh{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.sdt{
+    top: 95px;
+    right: 136px;
+   position: absolute;
+}
+#phone{
+    color: yellow;
+   font-size: 30px;
+   position: absolute;
+   right: 270px;
+   top: 90px;
+}
+aside{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+.thucdon{
+     font-size: 30px;
+     margin: 38px auto;
+     text-align: center;
+}
+.formgiohang{
+    border: 1px solid rgb(196, 194, 194);
+    width: 18%;
+    display: inline-block;
+    height: 330px;
+    margin:50px 0px 85px 85px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.hoversp1:hover{
+    width: 100%;
+    background-color: red;
+}
+.formgiohang button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #b9b9b9;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.thucdonpizza li a{
+     text-decoration: none;
+}
+.giamgia{
+    top:8px;
+    left: 8px;
+    position: absolute;
+    background: #c00a27;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.textkms{
+    position: absolute;
+    top: 18%;
+    color: white;
+    right: 45%;
+    font-size: 25px;
+}
+.bando{
+    margin-right: 50px;
+}
+.giahang h1{
+    margin-left:16%;
+    color: #a9001b;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imggiao{
+    position: absolute;
+    width: 30%;
+    background-color:#f5f5f5;
+    height: 400px;
+    right: 0;
+    margin-right: 10%;
+}
+.imggiao img{
+    padding: 50px;
+    margin-left: 20px;
+}
+.giaohang{
+    padding: 20px 5px;
+    margin-left: 15.6%;
+}
+.khuyenmai{
+width: 57%;
+height: auto;
+float: left;
+}
+.imgfotr{
+    position: absolute;
+    top: 92%;
+}
+.anhcs{
+    margin-left: 5%;
+
+ 
+}
+.anhcs img{
+  
+    margin: 10px 20px;
+    border-radius: 20px;
+
+}
+
+.thucdonpizza li a:hover{
+    color: #c00a27;
+}
+.formgiohang2{
+    border: 1px solid rgb(196, 194, 194);
+    width: 18%;
+    display: inline-block;
+    height: 330px;
+    margin:5px 0px 85px 85px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.formgiohang2 button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #b9b9b9;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.iconpizza{
+    background-color: white;
+    color: white;
+    font-size: 30px;
+}
+.iconpiz img.pizza{
+    position: absolute;
+    top: 48%;
+    left: 310px;
+}
+.iconpiz img.pizza1{
+    position: absolute;
+    top: 48%;
+    left: 480px;
+}
+.iconpiz img.pizza2{
+    position: absolute;
+    top: 48%;
+    left: 650px;
+}
+.iconpiz img.pizza3{
+    position: absolute;
+    top: 48%;
+    left: 780px;
+}
+.iconpiz img.pizza4{
+    position: absolute;
+    top: 48%;
+    right: 542px;
+}
+.iconpiz img.pizza5{
+    position: absolute;
+    top: 48%;
+    right: 360px;
+}
+.iconpiz img.pizza6{
+    position: absolute;
+    top: 48%;
+    right: 211px;
+}
+
+.thucdonpizza li{
+    padding-top: 80px;
+    margin: 10px;
+}
+.thucdonpizza li a{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    color: orangered;
+    margin: 0 20px;
+}
+.thucdonpizza{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 260px;
+}
+
+.formgiohang button:hover{
+    background-color: #a9001b;
+}
+.formgiohang2 button:hover{
+    background-color: #a9001b;
+}
+
+.tensp{
+    margin: 10px;
+}
+.giatiensp{
+    margin: 10px;
+    color: #a9001b;
+}
+.quenmk{
+    margin-right: 50px;
+}
+
+footer{ 
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(
+        to right,
+        rgb(205, 205, 8),
+        orangered,
+        orange
+    );
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-variant: small-caps;
+    clear: both;
+}
+

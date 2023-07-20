@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(
+    to right ,
+    rgb(127, 210, 26),
+    green,
+    rgb(195, 195, 21)
+);
+}
+i{
+    color: black;
+}
+header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+   
+}
+.fromgiohang{
+    border-radius: 15px;
+    width: 100%;
+    margin: 50px auto;
+    height: 380px;
+    background-color: gray;  
+    position: relative;
+    color: white;
+
+}
+.heart{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+
+}
+.cart{
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.img img{
+    padding-top: 38px;
+    margin: 0 0 0 14px;
+    width: 90%;
+    height: 100%;
+  
+}
+.text{
+    padding-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.giatien{
+    text-align: center;
+    color: black;
+    transition: 0.4s;
+    margin: 0 25px;
+    visibility: hidden;
+    padding-top: 100px;
+   
+}
+.giatien strong{
+    color: green;
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.giatien del{
+    font-size: 15px;
+}
+
+.btn_button{
+    padding: 18px 0;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: none;
+    transition: 0.4s;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+.btn_button button{
+    padding: 8px 20px;
+    margin: 8px;
+    border: none;
+    background-color: rgb(230, 249, 204);
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+.btn_button button:hover{
+    transform: scale(0.9);
+}
+.fromgiohang:hover .giatien{
+  display: block;
+  margin-top: -70px;
+  visibility: visible;
+
+}
+.fromgiohang:hover .btn_button{
+    display: block;
+  margin-top: 0px;
+
+}
+.fromgiohang:hover .text{
+    display: none;
+}
+
